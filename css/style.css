@@ -1,0 +1,57 @@
+*{
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: currentColor;
+}
+
+img{
+    width: 100%;
+	aspect-ratio: 16/9;
+	object-fit: cover;
+	object-position: center;
+    border-radius: 20px;
+}
+
+.slide.active {
+	display: block;
+}
+
+.slide {
+	display: none;
+    position: relative;
+}
+
+.slide_overlay {
+    position: absolute;
+    background-color: rgba(221, 214, 214, 0.397);
+    color: white;
+    text-align: center;
+    top: 0;
+    padding: 30px;
+}
+
+.carousel {
+	position: relative;
+}
+
+.carousel_arrow {
+	position: absolute;
+	font-size: 52px;
+	color: white;
+    background-color: rgba(42, 42, 42, 0.586);
+    border-radius: 15px;
+    padding: 5px;
+	top: 30%;
+}
+
+.carousel_arrow.arrow-left {
+	left: 90px;
+}
+
+.carousel_arrow.arrow-right {
+	right: 90px;
+}
